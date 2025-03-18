@@ -23,13 +23,13 @@ export default function Home() {
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Prof. Raul Rosales</h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8">Educación Artística y Artes Visuales</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+            <Button asChild className="bg-primary hover:bg-primary/90">
               <Link href="/blog">
                 <BookOpen className="mr-2 h-5 w-5" />
                 Blog
               </Link>
             </Button>
-            <Button asChild size="lg" variant="secondary">
+            <Button asChild className="bg-secondary hover:bg-secondary/90">
               <Link href="/galeria">
                 <Palette className="mr-2 h-5 w-5" />
                 Galería
@@ -58,7 +58,7 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">
                 Explorando las posibilidades del arte como medio para el desarrollo integral...
               </p>
-              <Button asChild variant="outline" className="w-full">
+              <Button asChild className="w-full">
                 <Link href="/blog/arte-herramienta-educativa">Leer más</Link>
               </Button>
             </CardContent>
@@ -83,7 +83,7 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">
                 Colección de obras realizadas por estudiantes durante el semestre...
               </p>
-              <Button asChild variant="outline" className="w-full">
+              <Button asChild className="w-full">
                 <Link href="/galeria/artes-visuales">Ver galería</Link>
               </Button>
             </CardContent>
@@ -108,7 +108,7 @@ export default function Home() {
               <p className="text-muted-foreground mb-4">
                 Proyectos audiovisuales creados en el taller de cine por nuestros estudiantes...
               </p>
-              <Button asChild variant="outline" className="w-full">
+              <Button asChild className="w-full">
                 <Link href="/galeria/audiovisuales">Ver proyectos</Link>
               </Button>
             </CardContent>
