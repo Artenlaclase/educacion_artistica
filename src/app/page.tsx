@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Palette, Film, BookOpen, User } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/Card"
 
 export default function Home() {
   return (

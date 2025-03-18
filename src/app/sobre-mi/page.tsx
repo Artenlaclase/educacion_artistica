@@ -3,8 +3,8 @@ import Link from "next/link"
 import { CalendarDays, GraduationCap, Award, BookOpen, Palette, Film } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Separator } from "@/components/ui/separator"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/Card"
+import { Separator } from "@/components/ui/Separator"
 
 export default function SobreMiPage() {
   return (
