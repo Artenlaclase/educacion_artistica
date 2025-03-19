@@ -1,9 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Palette, Film, BookOpen, User } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/Card"
+import { Button } from "@/components/ui/Button"
 
 export default function Home() {
   return (
@@ -21,7 +20,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 text-center px-4 md:px-6 max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Prof. Raul Rosales</h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-8">Educación Artística y Artes Visuales</p>
+          <p className="text-xl md:text-2xl text-white/90 mb-8">Educación Artes Visuales</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild className="bg-primary hover:bg-primary/90">
               <Link href="/blog">
